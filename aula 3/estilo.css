@@ -58,7 +58,6 @@ li{
     font-size: 2.5em;
     font-family: novaFonte;
     font-weight: bolder;
-    
 
 }
 a{
@@ -118,4 +117,41 @@ a:hover{
     font-size: 1.2em;
     text-align: center;
     
+}
+
+#secao3{
+    height: 60vh;
+    width: 100%;
+    background-color: #FFD966;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#texto-secao3{
+    width: 40%;
+    height: 60%;
+    background-color: #9A3B3B;
+}
+
+#img-secao3{
+    margin-right: 0%;
+}
+
+#img-secao3 > img{
+    width: 20vw;
+    height: 40vh;
+}
+
+#texto-secao3 > h1{
+    font-size: 3em;
+    padding-bottom: 5%;
+}
+#texto-secao3 > p{
+    padding-top: 5%;
+}
+
+hr{
+    border: 2px solid #FFF2CC;
+    margin-right: 10%;
 }

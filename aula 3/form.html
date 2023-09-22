@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+
+    <form action="recebeDados.c">
+        Nome: <input type="text" name="nome" id=""><br>
+        Senha: <input type="password" name="senha" id=""><br>
+        Data: <input type="datetime-local" name="dataHora" id=""><br>
+        Cores: <input type="color" name="cor" id=""><br>
+
+        Curso:<br>
+        <input type="radio" value="CC" name="curso" id="">CC <br>
+        <input type="radio" value="ADS" name="curso" id="">ADS <br>
+        <input type="radio" value="ES" name="curso" id="">ES <br>
+
+        <input type="checkbox" value="APE" name="APE" id="">APE<br>
+        <input type="checkbox" value="POO" name="POO" id="POO">POO<br>
+        <input type="checkbox" value="SC" name="SC" id="SC">SC<br>
+
+        Estado<select name="sstado" method="post">
+            <option value="mg">MG</option>
+            <option value="df">DF</option>
+            <option value="es">ES</option>
+            <option value="rg">RG</option>
+            <option value="to">TO</option>
+            <option value="am">AM</option>
+            <option value="ap">AP</option>
+            <option value="go">GO</option>
+            <option value="rs">RS</option>
+            <option value="sp">SP</option>
+            <option value="rn">RN</option>
+            <option value="pr">PR</option>
+            <option value="sc">SC</option>
+            <option value="mt">MT</option>
+            <option value="ms">MS</option>
+            <option value="ro">RO</option>
+            <option value="rr">RR</option>
+            <option value="ac">AC</option>
+        </select>
+        <br>
+        Observação: <br>
+        <textarea name="obs" id="" cols="30" rows="10">
+        </textarea>
+        <br>
+        <input type="submit" value="texto">
+
+    </form>
+    
+</body>
+</html>
