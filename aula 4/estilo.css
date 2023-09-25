@@ -1,0 +1,48 @@
+.navbar{
+    background-color: aquamarine;
+    height: 30vh;
+}
+#navbarNav{
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.container-fluid{
+    background-color: rgb(15, 230, 15);
+}
+
+.navbar-nav{
+    background-color: rgb(20, 228, 255);
+    width: 40%;
+    justify-content: center;
+}
+
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-link{
+    font-family: cursive;
+
+}
+.nav-link:hover{
+    background-color: rgb(140, 0, 255);
+}
+
+@media screen and (max-width: 1000px){
+    .navbar-nav{
+        background-color: orangered;
+        width: 100%;
+    }
+    .nav-link:hover{
+        background-color: white;
+    }
+    .nav-link{
+        font-family: cursive;
+        color: blue;
+        font-family: 20px;
+    
+    }
+    
+
+}
