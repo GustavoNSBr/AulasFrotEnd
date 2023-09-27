@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#image-topo{
+    height: 100vh;
+    background-image: url(espaco-fundo.png);
+    background: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.nav-item   {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    width: 10%;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.2em;
+    
+}
+
+.nav-link{
+    color: #5900ff;
+}
+
+.nav-link:hover{
+    color: aliceblue;
+}
+
+.nav-item:hover{
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,0.938813025210084) 0%, rgba(39,29,152,0.9304096638655462) 23%, rgba(89,0,255,0.9136029411764706) 63%);
+color: aliceblue;
+}
