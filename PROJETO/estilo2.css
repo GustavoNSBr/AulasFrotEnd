@@ -6,7 +6,7 @@
 }
 
 html{
-    height: 220vh;
+    height: 500vh;
     background-color: rgb(24, 12, 26);
 }
 
@@ -15,12 +15,11 @@ html{
     margin: auto;
 }
 
+
 .flex{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FFAE81;
-    border-radius: 20px;
 }
 
 img{
@@ -33,44 +32,13 @@ img{
 
 header{
     width: 100%;
-    padding: 0px 0px;
+    padding: 60px 4px;
     position: absolute;
     top: 0;
     left: 0;
     
 }
 
-header ul{
-    list-style-type: none;
-    padding-top: 20px;
-}
-
-header ul li{
-    display: inline-block;
-    margin: 0 40px;
-}
-
-header ul li a{
-    color: #FE775A;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 30px;
-    width: 120px;
-    height: 120px;
-}
-
-.btn-contato button{
-    width: 150px;
-    height: 50px;
-    padding-right: 10px;
-    border: 0;
-    background-color: #FE775A;
-    color: #fff;
-    cursor: pointer;
-    transition: .2s;
-    font-size: 30px;
-    border-radius: 20px;
-}
 
 .banner{
     height: 150vh;
@@ -78,6 +46,7 @@ header ul li a{
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: cover;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,3 +61,6 @@ header ul li a{
     color: #FFAE81;
 }
 
+navbar{
+    background-color: blue;
+}
